@@ -1,0 +1,59 @@
+<div class="db__plugin">
+    <div class="db__header">
+      <span class="title">Internal Users</span>
+    
+      <div class="db__icons"  (click)="toggle()">
+
+        <span class="round-icon-btn">
+          <span class="tltp">{{ view === 'graph'? 'List View' : 'Graph View'}}</span>
+        </span>
+      </div>
+    </div>
+    <div class="db__plugin__wrapper">
+   
+   
+  
+  
+      <ng-container *ngIf="data && data.length>0">
+  
+        <div *ngIf="view === 'graph'" appGrpupBarChart [legends]="legends" [data]="data" ></div>
+  
+        <div  [hidden]="view === 'graph'">
+          <div class="graph-table" >
+  
+            <table class="table table-striped">
+              <thead>
+                <tr> 
+                 <th>{{selectedDuraton}}</th>
+                 <th class="text-right">IB Ops</th>
+                 <th class="text-right">Sales </th>
+                 <th class="text-right">CX</th>
+                 <th class="text-right">Marketing</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of data; let i = index">
+                  <td><span>{{item.label}}</span></td>
+                  <td class="text-right"><span>{{managementDbService.transform(item.ibOps, 1)}}</span></td>
+                  <td class="text-right"><span>{{managementDbService.transform(item.sales, 1)}}</span></td>
+                  <td class="text-right"><span>{{managementDbService.transform(item.cx, 1)}}</span></td>
+                  <td class="text-right"><span>{{managementDbService.transform(item.marketing, 1)}}</span></td>
+                </tr>
+                <tr class="tfoot">
+                  <td><span>Total</span></td>
+                  <td class="text-right"><span>{{getSum('ibOps')}}</span></td>
+                  <td class="text-right"><span>{{getSum('sales')}}</span></td>
+                  <td class="text-right"><span>{{getSum('cx')}}</span></td>
+                  <td class="text-right"><span>{{getSum('marketing')}}</span></td>
+                </tr>
+              </tbody>
+            </table>
+  
+        </div>
+      </div>
+  
+      </ng-container>
+  </div>
+  
+  </div>
+  

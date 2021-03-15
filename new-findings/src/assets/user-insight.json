@@ -1,0 +1,114 @@
+{
+    
+    "data": [
+        {
+            "ibOps": 900,
+            "sales": 1500,
+            "cx": 800,
+            "marketing": 950,
+            "year": 2020,
+            "quarter": "q1fy20",
+            "month": "aug"
+        },
+        {
+            "ibOps": 900,
+            "sales": 1500,
+            "cx": 800,
+            "marketing": 950,
+            "year": 2020,
+            "quarter": "q1fy20",
+            "month": "sep"
+        },
+        {
+            "ibOps": 1000,
+            "sales": 850,
+            "cx": 900,
+            "marketing": 750,
+            "year": 2020,
+            "quarter": "q1fy20",
+            "month": "oct"
+        },
+        {
+            "ibOps": 900,
+            "sales": 1500,
+            "cx": 750,
+            "marketing": 1000,
+            "year": 2020,
+            "quarter": "q2fy20",
+            "month": "nov"
+        },
+        {
+            "ibOps": 100,
+            "sales": 1500,
+            "cx": 650,
+            "marketing": 950,
+            "year": 2020,
+            "quarter": "q2fy20",
+            "month": "dec"
+        },
+        {
+            "ibOps": 1200,
+            "sales": 850,
+            "cx": 450,
+            "marketing": 750,
+            "year": 2020,
+            "quarter": "q2fy20",
+            "month": "jan"
+        },
+        {
+            "ibOps": 800,
+            "sales": 1500,
+            "cx": 900,
+            "marketing": 1000,
+            "year": 2020,
+            "quarter": "q3fy20",
+            "month": "feb"
+        },
+        {
+            "ibOps": 900,
+            "sales": 1500,
+            "cx": 800,
+            "marketing": 950,
+            "year": 2020,
+            "quarter": "q3fy20",
+            "month": "mar"
+        },
+        {
+            "ibOps": 5236,
+            "sales": 8562,
+            "cx": 562,
+            "marketing": 5952,
+            "year": 2020,
+            "quarter": "q3fy20",
+            "month": "apr"
+        },
+        {
+            "ibOps": 562,
+            "sales": 456,
+            "cx": 253,
+            "marketing": 521,
+            "year": 2020,
+            "quarter": "q4fy20",
+            "month": "may"
+        },
+        {
+            "ibOps": 1500,
+            "sales": 1450,
+            "cx": 700,
+            "marketing": 250,
+            "year": 2020,
+            "quarter": "q4fy20",
+            "month": "jun"
+        },
+        {
+            "ibOps": 520,
+            "sales": 850,
+            "cx": 300,
+            "marketing": 250,
+            "year": 2020,
+            "quarter": "q4fy20",
+            "month": "jul"
+        }
+    ],
+    "message": "success"
+}
