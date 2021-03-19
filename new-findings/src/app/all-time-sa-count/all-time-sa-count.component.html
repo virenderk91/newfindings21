@@ -1,0 +1,18 @@
+<div class="db__plugin">
+    <div class="db__header">
+      <span class="title">Internal Users</span>
+    
+      <div class="db__icons">
+      </div>
+    </div>
+    <div class="db__plugin__wrapper">
+   
+      <ng-container *ngIf="data && data.length>0">
+  
+        <div appAppLineChart [isGradient]="true" [data]="data" [legends]="legends" [chartColors]="colors" [stylelingClass]="'all-time-sa-counts-chart'" [tooltipHeading]="tooltipHeading" [margin]="{ top: 50, right: 10, bottom: 50, left: 70 }"></div>
+  
+      </ng-container> 
+  </div>
+  
+  </div>
+  

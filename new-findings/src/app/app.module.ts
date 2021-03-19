@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { UserInsightComponent } from './user-insight/user-insight.component';
 import { GrpupBarChartDirective } from './directive/grpup-bar-chart.directive';
 import { TitleCasePipe } from '@angular/common';
+import { AllTimeSaCountComponent } from './all-time-sa-count/all-time-sa-count.component';
+import { AppLineChartDirective } from './directive/app-line-chart.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserInsightComponent,
-    GrpupBarChartDirective
+    GrpupBarChartDirective,
+    AllTimeSaCountComponent,
+    AppLineChartDirective
   ],
   imports: [
     BrowserModule,
